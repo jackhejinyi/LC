@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <title>My web site</title>    
+        <link href="style.css" rel="stylesheet"/>
+        <!--Error happens if defer is miss -->
+        <!-- Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+        at javascript.js:8:8 -->
+        <script src="main.js" defer></script>
+    </head>
+
+    <body>
+        <h1>My first javascript</h1>
+        
+        <button type="button">Player1: Jack</button>
+    </body>
+</html>
